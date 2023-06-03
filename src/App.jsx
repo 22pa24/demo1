@@ -1,10 +1,11 @@
 
-import  Card from './assets/card'
-const app=()=>{
+import TableData from "./TableData"
+
+const App = () => {
   return(
-    <>
-    <h1> Sneha </h1><Card name=' welcome'  />
-    </>
+    <TableData/>
   )
 }
-export default app
+
+export default App
+
